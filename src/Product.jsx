@@ -17,7 +17,7 @@ const Product = () => {
   const mutation = useMutation({
     mutationFn: (newProduct) => {
       return axios.put(`https://dummyjson.com/products/`, newProduct);
-    },
+    }
   });
 
   return (
